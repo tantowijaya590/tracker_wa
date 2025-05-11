@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: flask-tracker
+    env: python
+    buildCommand: ""
+    startCommand: python tracker.py
+    plan: free
+    region: singapore
+    branch: main
+    autoDeploy: true
